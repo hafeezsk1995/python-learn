@@ -8,7 +8,8 @@ def topten():
         squ = n*n
         ls.append(squ)
         n +=1
-    return ls
+    print(ls,"ls")    
+    yield ls
 
 print("calling fror function")
 val = topten()
