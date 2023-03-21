@@ -34,7 +34,7 @@ mycursor = mydb.cursor(buffered=True)
 # Update 
 
 # mycursor.execute("update customers set name = 'shaik Hafeez',address ='kdk1' where id =1 ")
-# mydb.commit()
+# mydb.commit() 
     
 
 # delete 

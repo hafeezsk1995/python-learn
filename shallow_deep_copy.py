@@ -22,7 +22,7 @@ import copy
 
 old_list = [[1,2,3],[23,3,44]]
 new_list = copy.deepcopy(old_list)
-new_list[0] = ['a','b','c'] 
+new_list[0] = ['a','b','c']  
 #new_list[0][0] = 'a'
 print("old list",old_list)
 print("new list",new_list)
